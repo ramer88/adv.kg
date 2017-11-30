@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'TrebuchetMS-Bold';
+  src: url('TrebuchetMS-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trebucbd';
+  src: url('trebucbd.eot');
+  src: url('trebucbd.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,240 @@
+section.header
+	margin-bottom 47px
+	background-color headerColor
+	
+.header-top
+	margin 0 auto
+	width 100%
+	background-color headerColor
+	padding 16px 15px 25px
+	white-space nowrap
+	
+.header-top-container
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	margin 0 auto
+	width 100%
+	max-width 1170px
+
+.header-logo
+	size(91px,64px)
+	display block
+	background url('../img/general/logo.png') 0 0 no-repeat
+	background-size cover
+		
+.header-nav
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	width 695px
+	margin 26px 22px 0 0
+	
+	li
+		a
+			padding-bottom 8px
+			color #fff
+			font-size rem(25)
+			font-family mainFont
+			
+			&:focus,
+			&:hover,
+			&:visited
+				border-bottom 5px solid #fff
+			
+	& ul.sandwich-menu-link
+		display block
+		order 3
+		margin 10px 0 0
+		width 100%
+		background-color mainColor
+		z-index 3
+		
+		li
+			display block
+			margin 0
+			padding 0
+			border-bottom 1px solid #fff
+			
+			a
+				display block
+				padding 12px 21px
+				color #fff
+				
+				&:hover
+					background-color buttonHoverColor
+					color mainTextColor
+					font-size rem(16)
+					transition all .5s
+	
+/*.active-link
+	border-bottom 5px solid #fff*/
+
+/*Sandwich menu*/
+
+.sandwich-menu
+	order 2
+	position relative
+	display none
+	width 41px
+	height 36px
+	margin 20px 0 0 30px
+	background-color mainColor
+	cursor pointer
+	
+	& span
+		position absolute
+		display block
+		width 70%
+		height 4px
+		background-color #fff
+		opacity 1
+		transition all 0.5s
+		
+	& span:last-child
+		margin-bottom 0
+		
+	.sandwich-menu-top
+		top 6px
+		left 6px
+	.sandwich-menu-middle
+		top 16px
+		left 6px
+	.sandwich-menu-bottom
+		top 26px
+		left 6px
+
+	&.active
+		.sandwich-menu-top
+			opacity 0
+		.sandwich-menu-middle
+			top 16px
+			left 6px
+			transform rotate(44deg)
+		.sandwich-menu-bottom
+			top 16px
+			left 6px
+			transform rotate(-45deg)
+
+/*Sandwich menu end*/
+
+.tell
+	text-align right
+	
+.our-tell
+	margin-bottom 16px
+	color #fff
+	text-align right
+	font-size rem(18)
+	font-family italicFont
+	
+.order-call
+	padding 5px 15px
+	border-radius 10px
+	background-color mainColor
+	color #fff
+	font-size rem(18)
+	font-family italicFont
+	
+	&:hover
+		background-color buttonHoverColor
+		color mainTextColor
+		
+/* header-bottom */
+
+.main-banner
+	width 100%
+	max-width rem(3000)
+	min-height rem(613)
+	margin 0 auto
+	background url('../img/general/mainBanner.jpg') 0 0 no-repeat
+	background-size cover
+	box-shadow 1px 23px 20px -16px #000 inset
+	
+.our-services
+	display flex
+	justify-content center
+	flex-wrap wrap
+	width 100%
+	max-width 1138px
+	margin 0 auto
+	padding 26px 0 0
+	
+.background
+	display flex
+	flex-direction column
+	justify-content space-between
+	align-items center
+	margin 0 11px 22px
+	padding 10px 0 7px
+	size(120px)
+	border-radius 10px
+	background-color rgba(167,48,30,0.5)
+	text-align center
+
+	&:hover
+		background-color #F2A92C
+		color #fff
+		
+		.icon
+			fill black
+			
+		.icon-title
+			color black
+
+.icon
+	margin-bottom 10px
+	fill #fff
+
+.icon-title
+	text-align center
+	color #fff
+	font-size rem(12)
+	font-family boldFont
+	
+.icon-billboard
+	size(73px)
+	
+.icon-firewall
+	size(81px,72px)
+	
+.icon-promoaction
+	size(62px,63px)
+	
+.icon-incognito
+	size(52px,61px)
+	
+.icon-printed
+	size(79px,73px)
+	
+.icon-radio
+	size(60px)
+	
+.icon-television
+	size(66px,64px)
+	
+.icon-bus
+	size(95px,64px)
+	
+.icon-shop
+	size(63px)
+	
+.icon-entrance
+	size(68px,63px)
+	
+.icon-lift
+	size(63px)
+	
+.icon-newspaper
+	size(65px,64px)
+	
+.icon-flight
+	size(62px)
+	
+.icon-disign
+	margin-bottom 0
+	size(58px,88px)
+	
+.icon-internet
+	size(80px,69px)
+	

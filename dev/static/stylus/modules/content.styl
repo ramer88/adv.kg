@@ -1,0 +1,186 @@
+section.content
+	line-height 1.4
+	
+.content-container
+	width 100%
+	max-width 1076px
+	margin 0 auto
+
+.main-speach
+	width 100%
+	max-width 1076px
+	margin-bottom 97px
+	padding 40px 20px 40px 39px
+	border-right 13px solid mainColor
+	border-left 13px solid mainColor
+	background-color mainBackgroundTextColor
+	color mainTextColor
+	font-size rem(20)
+	word-wrap break-word
+	box-shadow 1px 23px 28px -24px #000
+	
+/* Block profitable */
+
+.profitable
+	display flex
+	justify-content space-between
+	background-color mainBackgroundTextColor
+	box-shadow 7px -20px 24px -24px #000
+
+.profitable-desc
+	padding 34px 65px 45px 45px
+	
+	h5
+		position relative
+		padding-bottom 69px
+		font-family boldFont
+		font-size rem(29)
+		text-transform uppercase
+		
+		&:after
+			content ''
+			display block
+			position absolute
+			top 64%
+			width 139px
+			height 7px
+			background-color mainColor
+			z-index 2
+	p
+		max-width 511px
+		font-size rem(20)
+		word-wrap break-word
+
+.profitable-picture
+	size(323px,419px)
+	background url('../img/content/profitable.jpg') 0 0 no-repeat
+	background-size cover
+	
+/* Block equipment */
+
+.equipment
+	display flex
+	justify-content flex-start
+	background-color addBackgroundTextColor
+	
+.equipment-desc
+	padding 57px 65px 35px 85px
+	color #fff
+	
+	h5
+		position relative
+		padding-bottom 69px
+		font-family boldFont
+		font-size rem(29)
+		text-transform uppercase
+		
+		&:after
+			content ''
+			display block
+			position absolute
+			top 64%
+			width 139px
+			height 7px
+			background-color #fff
+			z-index 2
+	p
+		max-width 600px
+		font-size rem(20)
+		word-wrap break-word
+		
+.equipment-picture
+	size(288px,465px)
+	background url('../img/content/equipment.jpg') 0 0 no-repeat
+	background-size cover
+	
+/* Block approach */
+
+.approach
+	margin-bottom 68px
+	display flex
+	justify-content space-between
+	background-color mainColor
+	box-shadow 1px 23px 28px -24px #000
+
+.approach-desc
+	padding 79px 68px 67px 77px
+	color #fff
+	
+	h5
+		position relative
+		padding-bottom 69px
+		font-family boldFont
+		font-size rem(29)
+		text-transform uppercase
+		
+		&:after
+			content ''
+			display block
+			position absolute
+			top 64%
+			width 139px
+			height 7px
+			background-color #fff
+			z-index 2
+	p
+		font-size rem(20)
+		word-wrap break-word
+		
+/* Form */
+
+.form-container
+	margin 0 15px
+	text-align center
+	
+	p
+		margin-bottom 59px
+		color mainTextColor
+		font-family boldFont
+		font-size rem(46)
+		text-transform uppercase
+		
+.form
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	width 100%
+	max-width 745px
+	margin 0 auto 52px
+
+	input[type="text"],
+	input[type="email"],
+	textarea[placeholder="Заявка"]
+		padding 14px
+		
+.form
+	input[type="text"]
+		margin-bottom 27px
+
+.date
+	display flex
+	flex-direction column
+	margin 0 20px 20px 0
+	width 100%
+	max-width 351px
+	
+	input[type="text"],
+	input[type="email"]
+		width 100%
+		
+.application
+	width 100%
+	max-width 353px
+	max-height 204px
+
+.btn-send
+	display block
+	margin 0 auto
+	margin-top 78px
+	padding 7px 56px
+	border none
+	border-radius 15px
+	background-color mainColor
+	color #fff
+	font-family boldFont
+	font-size rem(25)
+	cursor pointer

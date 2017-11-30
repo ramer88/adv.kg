@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Trebuchet-BoldItalic';
+  src: url('Trebuchet-BoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trebucbi';
+  src: url('trebucbi.eot');
+  src: url('trebucbi.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

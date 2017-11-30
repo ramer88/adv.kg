@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'TrebuchetMS-Italic';
+  src: url('TrebuchetMS-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trebucit';
+  src: url('trebucit.eot');
+  src: url('trebucit.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

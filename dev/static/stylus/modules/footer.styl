@@ -1,0 +1,118 @@
+section.footer
+	width 100%
+
+.footer
+	width 100%
+	background-color mainBackgroundTextColor
+	color addBackgroundTextColor
+	box-shadow 7px -20px 24px -27px #000
+
+.footer-top
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+	width 100%
+	max-width 1076px
+	margin 0 auto
+	padding 40px 20px 0px
+	
+.footer-top
+	ul
+		margin 20px 50px 20px 0
+		
+		&:last-child
+			margin-right 0
+
+/* Наша Команда */
+
+ul.title>li:nth-child(1)
+	margin-bottom 20px
+	font-family boldFont
+	font-size rem(21)
+	
+.avatar
+	margin-bottom 12px
+	size(85px)
+	border-radius 50%
+	border 2px solid addBackgroundTextColor
+	background-size cover
+	
+.general
+	background url('../img/content/general.jpg') 0 0 no-repeat
+
+.auditor
+	background url('../img/content/auditor.jpg') 26% 0 no-repeat
+
+.menedger
+	background url('../img/content/menedger.jpg') 36% 0 no-repeat
+
+.avatar-name,
+.avatar-position
+	font-size rem(15)
+	
+.avatar-position
+	margin-bottom 28px
+	
+ul.team>li:last-child
+	margin-bottom 0
+
+/* Наши Услуги */
+
+.services
+	li
+		margin-bottom 13px
+		
+		a
+			position relative
+			color addBackgroundTextColor
+			
+			&:before
+				content ''
+				display block
+				position absolute
+				top 6px
+				left -18px
+				width 0
+				height 0
+				border 5px solid transparent
+				border-left 10px solid addBackgroundTextColor
+				
+			&:hover
+				color mainTextColor
+				border-bottom 1px solid gray
+		
+	li:nth-child(5)
+		line-height 1.4
+		
+
+
+/* Контакты */
+
+.our-contacts
+	li
+		margin-bottom 19px
+		
+/* Footer bottom */
+
+.footer-bottom
+	padding 26px 0
+	background-color mainColor
+	color #fff
+	text-align center
+	font-family italicFont
+	font-size rem(18)
+	
+/* Кнопка на вверх */
+
+#back-to-top
+	position fixed
+	display none
+	bottom 70px
+	right 15px
+	cursor pointer
+	z-index 5
+	
+.icon-up-arrow
+	size(50px)
+	display block
+	fill #AAAEB4FF

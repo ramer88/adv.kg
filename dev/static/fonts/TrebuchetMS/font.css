@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'TrebuchetMS';
+  src: url('TrebuchetMS.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trebuc';
+  src: url('trebuc.eot');
+  src: url('trebuc.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
